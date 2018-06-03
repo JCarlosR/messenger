@@ -1,0 +1,23 @@
+User
+name, email
+
+Usuario 7
+-> U8, U9
+
+Conversaciones:
+U7-U8
+U7-U9
+U8-U7
+
+Conversation
+user
+contact
+últ mensaje
+listen notifications
+blocked
+
+Message
+emisor
+receptor
+quién envió
+mensaje
