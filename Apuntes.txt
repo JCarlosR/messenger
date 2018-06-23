@@ -1,0 +1,5 @@
+Pequeña      ---> Props y Events
+
+Mediana      ---> Event Bus
+
+Grande       ---> Vuex

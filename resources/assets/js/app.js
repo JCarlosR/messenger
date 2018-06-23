@@ -1,11 +1,17 @@
 require('./bootstrap');
 
-window.Vue = require('vue');
-
-
+import Vue from 'vue'
 import BootstrapVue from 'bootstrap-vue'
+import store from './store'
+
 Vue.use(BootstrapVue);
 
+Vue.component('contact-form-component', 
+    require('./components/ContactFormComponent.vue')
+);
+Vue.component('profile-form-component', 
+    require('./components/ProfileFormComponent.vue')
+);
 Vue.component('status-component', 
     require('./components/StatusComponent.vue')
 );
@@ -27,6 +33,7 @@ Vue.component('active-conversation-component',
 
 const app = new Vue({
     el: '#app',
+    store,
     methods: {
     	logout() {
     		document.getElementById('logout-form').submit();

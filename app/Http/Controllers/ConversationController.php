@@ -20,5 +20,6 @@ class ConversationController extends Controller
     		]);
 		
 		// contact_name
+    	// contact_image
     }
 }
