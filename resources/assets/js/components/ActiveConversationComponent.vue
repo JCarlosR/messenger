@@ -1,5 +1,5 @@
 <template>
-    <b-row>
+    <b-row class="h-100">
         <b-col cols="8">
             <b-card no-body
                 footer-bg-variant="light"

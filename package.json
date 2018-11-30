@@ -16,9 +16,11 @@
     "vue": "^2.5.7"
   },
   "dependencies": {
+    "bootstrap-vue": "^2.0.0-rc.11",
     "laravel-echo": "^1.4.0",
     "moment": "^2.22.2",
     "pusher-js": "^4.2.2",
+    "vue-router": "^3.0.2",
     "vuex": "^3.0.1"
   }
 }

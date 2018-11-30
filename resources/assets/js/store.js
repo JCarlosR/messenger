@@ -54,10 +54,10 @@ export default new Vuex.Store({
             );
         },
         getConversations(context) {
-            axios.get('/api/conversations')
-            .then(response => {
-                context.commit('newConversationsList', response.data);
-            });
+            return axios.get('/api/conversations')
+                .then(response => 
+                    context.commit('newConversationsList', response.data)
+                );
         },
         postMessage(context, newMessage) {
             const params = {
@@ -85,6 +85,13 @@ export default new Vuex.Store({
                         .toLowerCase()
                         .includes(state.querySearch.toLowerCase())
             );
+        },
+        getConversationById(state) {
+            return conversationId => {
+                return state.conversations.find(
+                    conversation => conversation.id == conversationId
+                );
+            };            
         }
     }
 });
