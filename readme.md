@@ -6,7 +6,7 @@ Este repositorio se corresponde con el curso titulado "Realtime Messenger usando
 
 A continuación puedes ver una presentación en formato de video de lo que aprenderás en el curso.
 
-[![Curso de Laravel y Vue](https://udemy-images.udemy.com/course/750x422/1682886_b84f_2.jpg)](https://www.youtube.com/watch?v=20FLu655020)
+[![Curso de Laravel y Vue](https://res.cloudinary.com/pym/image/upload/c_scale,f_auto,q_auto,w_420/v1599162695/courses/Vue.jpg)](https://www.youtube.com/watch?v=20FLu655020)
 
 ## Contenido
 
